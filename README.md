@@ -1,4 +1,4 @@
-###结论
+### 结论
 
 JavaScript居首位，HTML5紧随其后，Python位列第三。
 
@@ -7,7 +7,7 @@ JavaScript居首位，HTML5紧随其后，Python位列第三。
 
 ![](https://i.imgur.com/RBRczi9.png)
 ![](https://i.imgur.com/VxvOpEY.png)
-###涉及知识点
+### 涉及知识点
 
  - python爬虫
    - requests库
@@ -17,7 +17,7 @@ JavaScript居首位，HTML5紧随其后，Python位列第三。
  - kibana可视化
      - 做图展示
      
-###实现步骤
+### 实现步骤
 1. 数据采集
 2. 批量入库
 3. 绘制图表
@@ -79,12 +79,15 @@ elasticsearch的插入数据有两种方式：
 代码中实现的是批量插入。即爬取一个页面，一个页面中有20条tag信息，将这20条数据打包bulk.
 
 数据长这个样子
+
 ![](https://i.imgur.com/yZu3DYB.png)
 
 segmentfault站点下的569个标签页面一共采集到11380条数据
+
 ![](https://i.imgur.com/Tb0q117.png)
 
 单线程下爬取和写入耗时269.183s
+
 ![](https://i.imgur.com/JdsLdsK.png)
 
 ### 绘制图表
@@ -102,7 +105,7 @@ git这个版本控制工具的问题也不少，可是svn的身影我没有看�
 
 在各种技术名词的标签下，还冒出一个程序员标签，排名第12位。emmmm，，，知道了你是个程序员，不用强调啦。
 
-###GitHub
+### GitHub
 虽然程序很简单，但是当我完成下面的TODO也会继续更新下，我是个追求完美的程序员，尽管完美的事很难，当我们也要为之奋斗啊！
 
 https://github.com/wkatios/segmentfault
